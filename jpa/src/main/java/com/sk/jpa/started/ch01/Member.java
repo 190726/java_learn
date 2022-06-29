@@ -19,6 +19,7 @@ public class Member{
     private Long id;
 	
 	private String name;
+
 	
 	public void setId(Long id) {
 		this.id = id;

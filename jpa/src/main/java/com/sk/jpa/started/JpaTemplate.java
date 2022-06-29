@@ -1,4 +1,4 @@
-package com.sk;
+package com.sk.jpa.started;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -12,7 +12,7 @@ public enum JpaTemplate {
 	INSTANCE;
 	
 	public void persist(BusinessCallback callback) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("sk_jpa");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("sk_jpa_h2");
 		EntityManager em = emf.createEntityManager();
 		
 		EntityTransaction tx = em.getTransaction();

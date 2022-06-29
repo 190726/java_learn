@@ -1,4 +1,4 @@
-package com.sk;
+package com.sk.jpa.started;
 
 import javax.persistence.EntityManager;
 
