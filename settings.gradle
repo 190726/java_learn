@@ -3,4 +3,5 @@ include 'jpa'
 include 'common'
 include 'java8'
 include 'develop-tech'
+include 'technique'
 

@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/develop-tech" />
             <option value="$PROJECT_DIR$/java8" />
             <option value="$PROJECT_DIR$/jpa" />
+            <option value="$PROJECT_DIR$/technique" />
           </set>
         </option>
       </GradleProjectSettings>
