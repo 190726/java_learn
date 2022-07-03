@@ -1,4 +1,6 @@
 rootProject.name = 'java_learn'
 include 'jpa'
 include 'common'
+include 'java8'
+include 'develop-tech'
 
